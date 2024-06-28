@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/blue"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/homeImage"
+                android:layout_width="500dp"
+                android:layout_height="600dp"
+                android:layout_marginTop="60dp"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/designer" />
+
+            <TextView
+                android:id="@+id/textBelowImage"
+                android:background="@drawable/post_box_background1"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homeImage"
+                android:fontFamily="casual"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:text="Welcome to Lost And Found \n Application"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/textBelow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelowImage"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+
+                android:fontFamily="casual"
+                android:text="\nReunite with Your Lost Items or Help Others Find Theirs
+\n\n
+Lost Something?
+"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textBelow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelow1"
+                android:background="@drawable/post_box_background1"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="casual"
+                android:text="Don’t worry! Simply enter the details of your lost item below or browse through the categories to see if someone has found it already.
+    \n\n
+"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textBelow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelow2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:text="Found Something?
+"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textBelow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelow3"
+                android:background="@drawable/post_box_background1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="casual"
+                android:text=" Thank you for helping out! Please post the item with a brief description and where you found it, so we can connect you with the owner.
+    \n\n
+"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textBelow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelow4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:text="    How It Works:
+"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textBelow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelow5"
+                android:background="@drawable/post_box_background1"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text=" 1. Search or Post: Use our search tool to look for your lost item or post one that you’ve found.
+    \n2. Connect: If you find a match, send a secure message to coordinate the return.
+    \n3. Resolve: Meet up in a safe location to return the item or use our secure shipping options.
+    \n\n
+"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textBelow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textBelow6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="casual"
+                android:text="     Start Now ! \n\n\n\n\n
+
+"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

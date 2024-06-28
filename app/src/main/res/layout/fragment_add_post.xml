@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="20dp"
+    android:scrollbars="none"
+    android:background="@color/g1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <!-- Title EditText -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="300dp"
+            android:minHeight="48dp"
+            android:text="Add post"
+            android:textAlignment="center"
+            android:textColor="@color/g2"
+            android:textSize="24dp"
+            android:translationY="40dp" />
+
+        <EditText
+            android:id="@+id/editTextName"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/g3"
+            android:hint="Name"
+            android:minHeight="48dp"
+            android:textColor="@color/g2"
+            android:textColorHint="@color/g2"
+            android:translationY="40dp" />
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextName"
+            android:layout_margin="16dp"
+            android:background="@color/g3"
+            android:hint="Title"
+            android:minHeight="48dp"
+            android:textColor="@color/g2"
+            android:textColorHint="@color/g2"
+            android:translationY="20dp" />
+
+        <!-- Description EditText -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTitle"
+            android:layout_margin="16dp"
+            android:background="@color/g3"
+            android:hint="Description"
+            android:minHeight="48dp"
+            android:textColor="@color/g2"
+            android:textColorHint="@color/g2" />
+
+        <!-- Location EditText -->
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextDescription"
+            android:layout_margin="16dp"
+            android:background="@color/g3"
+            android:hint="Location"
+            android:minHeight="48dp"
+            android:textColor="@color/g2"
+            android:textColorHint="@color/g2" />
+
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextLocation"
+            android:layout_margin="16dp"
+            android:background="@color/g3"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="Date"
+            android:minHeight="48dp"
+            android:textColor="@color/g2"
+            android:textColorHint="@color/g2" />
+
+        <RadioGroup
+            android:id="@+id/categoryRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/lostRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/g3"
+                android:checked="true"
+                android:text="Lost"
+                android:textColor="@color/g2"
+                android:textColorHint="@color/g2" /> <!-- Set initial state as needed -->
+
+            <RadioButton
+                android:id="@+id/foundRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/g3"
+                android:checked="false"
+                android:text="Found"
+                android:textColor="@color/g2"
+                android:textColorHint="@color/g2" /> <!-- Set initial state as needed -->
+
+        </RadioGroup>
+
+
+        <!-- ImageView to display chosen image -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextDate"
+            android:layout_margin="16dp"
+            android:scaleType="fitCenter" />
+
+        <!-- Button to choose an image -->
+
+        <!-- Button to post -->
+        <Button
+            android:id="@+id/buttonChooseImage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_margin="16dp"
+            android:background="@color/g2"
+            android:fontFamily="sans-serif-black"
+            android:scaleType="fitCenter"
+            android:text="Choose Image"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:cornerRadius="7dp" />
+
+        <Button
+            android:id="@+id/buttonPost"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonChooseImage"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="200dp"
+            android:background="@color/g2"
+            android:fontFamily="sans-serif-black"
+            android:scaleType="fitCenter"
+            android:text="Post"
+            android:textStyle="bold"
+            app:cornerRadius="7dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="300dp"
+            android:minHeight="48dp"
+
+            android:textAlignment="center"
+            android:textColor="@color/g2"
+            android:textSize="24dp"
+           />
+
+
+    </LinearLayout>
+
+</ScrollView>

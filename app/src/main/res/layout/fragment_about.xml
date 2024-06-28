@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="70dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".About">
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Lost n Found"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="Welcome to Lost n Found, the digital beacon for reuniting lost items with their rightful owners. At Lost n Found, we believe in the power of connection and the joy of rediscovery.\n\nOur Mission\n\nOur goal is straightforward: to help people effortlessly retrieve their lost items. On our college campus, losing belongings can cause a lot of inconvenience and stress. The process of reuniting lost items with their owners can be slow and inefficient, and physical notice boards are outdated. This not only results in prolonged anxiety but also highlights the need for a centralized and technologically advanced solution. We understand the frustration that comes with losing something valuable. That's why we've created a platform that bridges the gap between losing and finding, making the process as seamless as possible.\n\nHow It Works\n\nLost n Found operates seamlessly through a comprehensive suite of features designed to simplify the process of reuniting lost items with their owners. Upon registering and authenticating their accounts, users gain access to their personalized dashboards, where they can report lost items effortlessly or browse through found items reported by others. Found item reporting is a breeze, with users able to provide detailed descriptions and upload photos for easy identification. The claiming process is streamlined, facilitating smooth interactions between finders and owners, while verification by the poster ensures the legitimacy of reported items. On the flip side, lost item reporting is equally straightforward, empowering users to swiftly notify the community about their missing belongings. With edit post functionality, users can update their listings as needed, ensuring accuracy and relevance. Efficient search and filter options enable users to navigate through the database with ease, while chat and coordination tools facilitate seamless communication between parties involved in the reunification process. Lost n Found brings together the power of technology and community, making the journey from loss to reunion a seamless and heartening experience for all involved.\n\nGet Involved\n\nJoin the Lost n Found community today and be part of a movement that's bringing lost items home. Whether you've lost something dear to you or you're eager to help reunite others with their belongings, there's a place for you here. Together, we can make a difference, one lost item at a time."
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
+</ScrollView>
+    </FrameLayout>

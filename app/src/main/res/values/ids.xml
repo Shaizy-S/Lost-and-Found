@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameEditText" type="id"/>
+
+    <item name="descriptionEditText" type="id"/>
+    <item name="itemNameEditText" type="id" />
+    <item name="locationEditText" type="id" />
+    <item name="dateEditText" type="id"/>
+    <item name="nameTextView" type="id"/>
+
+    <item name="firebaseimage" type="id" />
+    <item name="uploadimagebtn" type="id" />
+    <item name="selectImagebtn" type="id" />
+</resources>
