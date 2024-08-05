@@ -5,7 +5,7 @@ A comprehensive lost and found application that helps users report lost and foun
 
 
 ## Features
--**Sign In/Sign Up**: Users must sign in or sign up to access the app's features.
+- **Sign In/Sign Up**: Users must sign in or sign up to access the app's features.
 - **Home Section**: View a summary of the application.
 - **Lost Item List Section**: Browse a list of reported lost items.
 - **Found Item List Section**: Browse a list of reported found items.
